@@ -14,7 +14,7 @@
   <body>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Anytime is Train Time</h1>
+            <h1 class="display-4">Anytime is Train Time.</h1>
                 <p class="lead">Choo Choo.  Chee Chee.</p>
         </div>
     </div>
@@ -26,7 +26,7 @@
                         <h5 class="card-title">Train Schedule</h5>
                     </div>
                     <div class="card-body">
-                        <table class="table table-hover">
+                        <table class="table table-hover" id="scheduleTable">
                             <thead>
                                 <tr>
                                     <th scope="col">Train Name</th>
@@ -59,14 +59,14 @@
                                     <input type="text" class="form-control" id="trainDestination" placeholder="Destination">
                                 </div>
                                 <div class="form-group">
-                                    <label for="firstTrainTinme">First Train Time (HH:mm - military time)</label>
-                                        <input type="text" class="form-control" id="firstTrainTime" placeholder="Time">
+                                    <label for="trainTime">First Train Time (HH:mm - military time)</label>
+                                        <input type="text" class="form-control" id="trainTime" placeholder="Time">
                                 </div>
                                 <div class="form-group">
                                     <label for="frequency">Frequency (min)</label>
                                         <input type="text" class="form-control" id="trainFrequency" placeholder="Frequency">
                                 </div>
-                                <button type="submit"  id="addTrainBtn" class="btn btn-primary">Submit</button>
+                                <button type="submit"  id="addTrainBtn" class="btn btn-primary">Add Train</button>
                             </form>       
                         </div>
                 </div>
