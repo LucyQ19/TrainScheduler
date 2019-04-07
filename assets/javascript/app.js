@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 var config = {
   apiKey: "AIzaSyBJT7N_bl2kcYaAKEdRkB8D4z8T6g3ILxM",
   authDomain: "lucyq19trainscheduler.firebaseapp.com",
@@ -41,7 +43,7 @@ $("#addTrainBtn").on("click", function(event) {
 
   $("#trainName").val("");
   $("#trainDestination").val("");
-  $("trainTime").val("");
+  $("#trainTime").val("");
   $("#trainFrequency").val("");
 
 });
@@ -101,3 +103,5 @@ currentTime();
 setInterval(function() {
   window.location.reload();
 }, 60000);
+
+});
