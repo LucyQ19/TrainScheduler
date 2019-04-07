@@ -97,3 +97,7 @@ $(document).on("click", ".arrival", function(){
 });
 
 currentTime();
+
+setInterval(function() {
+  window.location.reload();
+}, 6000);
