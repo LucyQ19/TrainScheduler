@@ -31,7 +31,8 @@ $("#addTrainBtn").on("click", function(event) {
     name: trainName,
     destination: trainDestination,
     time: trainTime,
-    frequency: trainFrequency
+    frequency: trainFrequency,
+    dataAdded: firebase.database.ServerValue.TIMESTAMP
   };
 
   database.ref().push(newTrain);
