@@ -100,4 +100,4 @@ currentTime();
 
 setInterval(function() {
   window.location.reload();
-}, 6000);
+}, 60000);
