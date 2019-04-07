@@ -12,28 +12,28 @@
     <title>Train Scheduler</title>
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Anytime is Train Time.</h1>
-                <p class="lead">Choo Choo.  Chee Chee.</p>
-        </div>
+    <div class="container" id="trainTitle">
+        <h1 class="display-1">L&amp;Q Express </h1>
+            <p class="lead">Always on Time!</p>
+            <p id="currentTime"></p>
     </div>
     <div class="row">
         <div class="col-xs-12 col-sm-9">
             <div class="container-fluid">
-                <div class="card">
+                <div class="card text-white bg-secondary">
                     <div class="card-header">
                         <h5 class="card-title">Train Schedule</h5>
                     </div>
                     <div class="card-body">
-                        <table class="table table-hover" id="scheduleTable">
+                        <table class="table table-hover table-dark" id="scheduleTable">
                             <thead>
                                 <tr>
-                                    <th scope="col">Train Name</th>
-                                    <th scope="col">Destination</th>
-                                    <th scope="col">Frequency (min)</th>
-                                    <th scope="col">Next Arrival</th>
-                                    <th scope="col">Minutes Away</th>
+                                    <th class="text-center" scope="col">Train Name</th>
+                                    <th class="text-center" scope="col">Destination</th>
+                                    <th class="text-center" scope="col">Frequency (min)</th>
+                                    <th class="text-center" scope="col">Next Arrival</th>
+                                    <th class="text-center" scope="col">Minutes Away</th>
+                                    <th class="text-center" scope="col">Remove</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -46,7 +46,7 @@
         </div>
         <div class="col-xs-12 col-sm-3">
             <div class="container-fluid">
-                <div class="card">
+                <div class="card text-white bg-secondary">
                     <h5 class="card-header">Add Train</h5>
                         <div class="card-body">
                             <form>
@@ -59,14 +59,14 @@
                                     <input type="text" class="form-control" id="trainDestination" placeholder="Destination">
                                 </div>
                                 <div class="form-group">
-                                    <label for="trainTime">First Train Time (HH:mm - military time)</label>
-                                        <input type="text" class="form-control" id="trainTime" placeholder="Time">
+                                    <label for="trainTime">First Train Time</label>
+                                        <input type="text" class="form-control" id="trainTime" placeholder="HH:mm - military time">
                                 </div>
                                 <div class="form-group">
                                     <label for="frequency">Frequency (min)</label>
                                         <input type="text" class="form-control" id="trainFrequency" placeholder="Frequency">
                                 </div>
-                                <button type="submit"  id="addTrainBtn" class="btn btn-primary">Add Train</button>
+                                <button type="submit"  id="addTrainBtn" class="btn btn-danger">Add Train</button>
                             </form>       
                         </div>
                 </div>
