@@ -1,6 +1,18 @@
+html,
+body {
+    width: 100%;
+    height: 100%
+}
+
 body {
     background-image: url('../images/trainTracksBackground.jpg');
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 #trainTitle {
@@ -15,4 +27,8 @@ body {
 
 #currentTime {
     font-size: 22px;
+}
+
+#footerText {
+    color: #ffffff;
 }
