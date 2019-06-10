@@ -6,7 +6,7 @@
 
 This app is a Firebase-backed train scheduler.  It uses Firebase to host a globally available set of data that will be retrieved and manipulated using Moment.js to provide up-to-date information about the arrival times and minutes until arrival of various trains that the user inputs. 
 
-### How My trainScheduler App Works
+### How my App Works
 
 * It accepts user input to add new train name, start time, destination, frequency to figure out next arrival time and how many minutes the train will arrive.
 * It displays schedule in a repeating table with new arrival times based on current time and frequency of trains stops.
@@ -21,7 +21,7 @@ This app is a Firebase-backed train scheduler.  It uses Firebase to host a globa
 * Firebase, and
 * jQuery
 
-### Thank you for visiting my github!  
+### Thank you for visiting my GitHub!  
 Enjoy using my app here: https://lucyq19.github.io/trainScheduler/
 
 If you like this app, you may enjoy using more of my apps here: https://lucyq19.github.io/professionalPortfolio/
