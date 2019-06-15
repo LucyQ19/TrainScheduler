@@ -12,7 +12,7 @@ This app is a Firebase-backed train scheduler.  It uses Firebase to host a globa
 * It displays schedule in a repeating table with new arrival times based on current time and frequency of trains stops.
 * It stores train information in Firebase for data presistance and retrieves information from database on reload.
 * The train schedule refreshes every minute to reflect updated arrival information.
-* Th user can delete train information from schedule and database with a click of a button.
+* The user can delete train information from schedule and database with a click of a button.
 
 ### Technologies Used for this App:
 
